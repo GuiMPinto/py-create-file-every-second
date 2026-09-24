@@ -9,7 +9,7 @@ def main() -> None:
                   "w") as file:
             file.write(now.strftime("%Y-%m-%d %H:%M:%S"))
         time.sleep(1)
-    print(datetime.now())
+        print(datetime.now())
 
 
 if __name__ == "__main__":
